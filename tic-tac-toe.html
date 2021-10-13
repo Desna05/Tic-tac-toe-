@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+  <title>tic-tac-toe</title>
+	<!-- CSS file Included -->
+	<link rel="stylesheet"
+		type="text/css" href="tic.css">
+
+	<!-- JavaScript file included -->
+	<script src="tic.js"></script>
+</head>
+
+<body>
+<svg viewBox="0 0 1350 600">
+  <text x='50%' y='50%' fill='transparent'text-anchor="middle">tic-tac-toe</text>
+</svg>
+
+		<!-- Game Instructions -->
+		<div class="wavy">
+		  <span style="--i:1;">T</span>
+		  <span style="--i:2">A</span>
+		  <span style="--i:3">P</span>
+		  <span style="--i:4">~</span>
+		  <span style="--i:5">T</span>
+		  <span style="--i:6">H</span>
+		  <span style="--i:7">E</span>
+		  <span style="--i:8">~</span>
+		  <span style="--i:9">B</span>
+		  <span style="--i:10">O</span>
+		  <span style="--i:11">X</span>
+		  <span style="--i:12">~</span>
+		  <span style="--i:13">S</span>
+		  <span style="--i:14">T</span>
+		  <span style="--i:15">A</span>
+		  <span style="--i:16">R</span>
+		  <span style="--i:17">T</span>
+		</div>
+     <h3 class="instruction" text-anchor="middle">First player start as </h3>
+      <h3 class="X"><b>X</b></h3>
+		<br><br>
+		<!-- 3*3 grid of Boxes -->
+		<div class="btn">
+		<input type="text" id="b1" class="time" onclick=
+			"myfunc_3(); myfunc();" readonly>
+
+		<input type="text" id="b2" class="label" onclick=
+			"myfunc_4(); myfunc();" readonly>
+
+		<input type="text" id="b3" class="cell" onclick=
+			"myfunc_5(); myfunc();" readonly>
+		<br><br>
+    </div>
+		<input type="text" id="b4" class="stats" onclick=
+			"myfunc_6(); myfunc();" readonly>
+			
+		<input type="text" id="b5" class="first" onclick=
+			"myfunc_7(); myfunc();" readonly>
+
+		<input type="text" id="b6" class="does" onclick=
+			"myfunc_8(); myfunc();" readonly>
+		<br><br>
+
+		<input type="text" id="b7" class="hide" onclick=
+			"myfunc_9(); myfunc();" readonly>
+
+		<input type="text" id="b8" class="keep" onclick=
+			"myfunc_10();myfunc();" readonly>
+
+		<input type="text" id="b9" class="game" onclick=
+			"myfunc_11();myfunc();" readonly>
+    </div>
+		<!-- Grid end here -->
+		<br><br><br>
+		<!-- Button to reset game -->
+		<button id="but" onclick="myfunc_2()">
+			RESET
+		</button>
+
+		<br><br>
+		<!-- Space to show player turn -->
+		<p id="print"></p>
+
+
+	</div>
+</body>
+
+</html>
