@@ -1,0 +1,244 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+  background: #d086ed;
+}
+svg text {
+  stroke: #e4c959;
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+  stroke-width: 5;
+  animation: textAnimate 5s infinite alternate;
+}
+@keyframes textAnimate {
+  0%{
+    stroke-dasharray: 0 50%;
+  }
+  100%{
+    stroke-dasharray: 50% 0;
+  }
+}
+
+	/* 3*3 Grid */
+.btn {
+  
+}
+	.time {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  left:-85px;
+	  top: -75px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.label {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -130px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.cell {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -185px;
+	  left: 85px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.stats {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  left:-84px;
+	  top: -242px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.first {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -298px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.does {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top:-353px;
+	  left: 85px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.hide{
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -410px;
+	  left:-83px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.keep {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -465px;
+	  left: 1px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.game {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -520px;
+	  left: 85px;
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+	/* Reset Button */
+	#but {
+    display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -560px;
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid dodgerblue;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: dodgerblue;
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: dodgerblue;
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+	}
+
+	/* Game Instruction Text */
+	.wavy {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top:-75px;
+	}
+	.wavy span {
+	  position: relative;
+	  display: inline-block;
+	  color: black;
+	  font-size: 0.5em;
+	  text-transform: uppercase;
+	  animation: animate s ease-in-out infinite;
+	  animation-delay: calc(0.1s * var(--i));
+	}
+	@keyframes animate
+	{
+	  0%
+	  {
+	    transform: translateY(0px);
+	  }
+	  20%
+	  {
+	    transform: translateY(-20px);
+	  }
+	  40%,100%
+	  {
+	    transform: translateY(0px);
+	  }
+	}
+	.instruction {
+	  display: flex;
+	  justify-content: center;
+	  align-content: center;
+	  position: relative;
+	  top: -50px;
+	  font-family: 'Courier New', Monospace;
+	}
+	.X {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  position: relative;
+	  top: -60px;
+	  font-family: Courier New, Monospace;
+	}
