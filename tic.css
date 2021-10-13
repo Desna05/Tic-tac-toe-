@@ -208,7 +208,7 @@ svg text {
 	  color: black;
 	  font-size: 0.5em;
 	  text-transform: uppercase;
-	  animation: animate s ease-in-out infinite;
+	  animation: animate 3s ease-in-out infinite;
 	  animation-delay: calc(0.1s * var(--i));
 	}
 	@keyframes animate
